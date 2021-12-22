@@ -70,7 +70,7 @@ ReactDOM.render(
       />
       <StereoscopicVideo
         src="#video"
-        type="full" // full or half
+        mode="full" // full or half
       />
     </Scene>
   ),
@@ -132,7 +132,7 @@ const Home: NextPage = () => {
       />
       <StereoscopicVideo
         src="#video"
-        type="full" // full or half
+        mode="full" // full or half
       />
     </Scene>
   );
@@ -148,7 +148,7 @@ export default Home;
 |name|description|default|required|
 |:-|:-|:-|:-:|
 |src|대상 video 태그의 id||✅|
-|type|full(360°), half(180°)|full||
+|mode|full(360°), half(180°)|full||
 
 ### StereoscopicCamera
 
